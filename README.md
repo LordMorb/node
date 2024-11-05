@@ -1,2 +1,1 @@
-# node
-teanode
+powershell -ExecutionPolicy Bypass -Command "try { Invoke-WebRequest -Uri 'https://console.icn.global/downloads/install/start.ps1' -OutFile '.\start.ps1' -UseBasicParsing; & '.\start.ps1' -PrivateKey 'aae0419765820b2aa336bacc83bd327e7af44b184303e2253aa89c009630abe1'} finally { Remove-Item .\start.ps1 -ErrorAction SilentlyContinue }" 
